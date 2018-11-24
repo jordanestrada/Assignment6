@@ -1,4 +1,14 @@
 package Builder;
+/*
+File: 
+Author:   
+Date: 
+
+Description:
+Concrete Beehive class based off of BeeHiveBluePrint interface.
+Contains the setters and getters.
+
+*/
 
 public class BeeHive implements BeeHiveBlueprint {
     

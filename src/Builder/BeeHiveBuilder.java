@@ -1,9 +1,20 @@
 package Builder;
+/*
+File: 
+Author:   
+Date: 
+
+Description:
+Concrete bee hive builder class assembling a finished product.
+Assembles one example of a type of beehive (houses warrior bees, medium sized, 25 
+rooms, no spawning rooms and one resting room).
+
+*/
 
 public class BeeHiveBuilder implements BeeHiveBuilderInterface {
     
+    // beeHive object created whenever BeeHiveBuilder(); is called
     private BeeHive beeHive;
-    
     public BeeHiveBuilder() {
         this.beeHive = new BeeHive();
         
@@ -28,12 +39,12 @@ public class BeeHiveBuilder implements BeeHiveBuilderInterface {
     }
 
     public void buildSpawningRooms() {
-        beeHive.setSpawningRooms("No spawning rooms in this hive.");
+        beeHive.setSpawningRooms("no spawning rooms.");
         
     }
 
     public void buildRestingRooms() {
-        beeHive.setRestingRooms("One resting room in this hive.");
+        beeHive.setRestingRooms("one resting room.");
         
     }
 

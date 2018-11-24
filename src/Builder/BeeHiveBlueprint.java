@@ -1,5 +1,17 @@
 package Builder;
 
+/*
+File: 
+Author:   
+Date: 
+
+Description:
+BeeHiveBlueprint sets up interface for creating all beehives.
+Defines methods that will be set up.
+Will be implemented by Beehive.Java
+
+*/
+
 public interface BeeHiveBlueprint {
     
     public void setBeeType(String type);
