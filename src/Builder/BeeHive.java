@@ -1,8 +1,5 @@
 package Builder;
 /*
-File: 
-Author:   
-Date: 
 
 Description:
 Concrete Beehive class based off of BeeHiveBluePrint interface.

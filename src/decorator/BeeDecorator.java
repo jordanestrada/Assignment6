@@ -1,4 +1,9 @@
 package decorator;
+/*
+
+This decorator class uses our decorator objects to make changes to our methods.
+ 
+ */
 
 abstract class BeeDecorator implements BeeInterface {
     

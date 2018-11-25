@@ -1,5 +1,11 @@
 package decorator;
 
+/*
+
+This decorator class adds base attributes of a worker bee.
+ 
+ */
+
 public class Worker extends BeeDecorator {
 
     public Worker(BeeInterface newBee) {

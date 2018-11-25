@@ -1,4 +1,10 @@
 package decorator;
+/*
+
+This decorator class adds 10 points to the bee strength without 
+affecting any of the object's other values.
+ 
+ */
 
 public class Strength extends BeeDecorator {
 

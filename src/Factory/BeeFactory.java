@@ -1,4 +1,10 @@
 package Factory;
+/*
+
+When provided the correct string, BeeFactory will use our abstract Bee 
+class to implement the methods needed to make our Bee.
+ 
+ */
 
 public class BeeFactory {
     

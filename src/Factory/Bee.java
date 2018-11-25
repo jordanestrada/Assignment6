@@ -1,4 +1,10 @@
 package Factory;
+/*
+
+This is our abstract class the factory will be populating based 
+on which bee is being created
+ 
+ */
 
 public abstract class Bee {
     

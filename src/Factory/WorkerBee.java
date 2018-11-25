@@ -1,4 +1,10 @@
 package Factory;
+/*
+
+WorkerBee will implement our abstract Bee class with the 
+information unique to WorkerBee
+ 
+ */
 
 public class WorkerBee extends Bee {
     

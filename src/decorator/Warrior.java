@@ -1,4 +1,9 @@
 package decorator;
+/*
+
+This decorator class adds base attributes of a warrior bee.
+ 
+ */
 
 public class Warrior extends BeeDecorator {
 

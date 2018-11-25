@@ -1,4 +1,9 @@
 package decorator;
+/*
+
+This decorator class adds base attributes of a queen bee.
+ 
+ */
 
 public class Queen extends BeeDecorator {
 
@@ -11,7 +16,7 @@ public class Queen extends BeeDecorator {
     }
     
     public String getBeeType() {
-        return theBee.getBeeType() + "Warrior Bee";
+        return theBee.getBeeType() + "Queen Bee";
     }
 
     public int getBeeStrength() {
