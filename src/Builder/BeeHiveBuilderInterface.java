@@ -1,13 +1,9 @@
 package Builder;
 
 /*
-File: 
-Author:   
-Date: 
 
 Description:
 Interface for building all the types of beehives.
-
 
 */
 

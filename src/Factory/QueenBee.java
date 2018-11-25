@@ -1,4 +1,10 @@
 package Factory;
+/*
+
+QueenBee will implement our abstract Bee class with the 
+information unique to QueenBee
+ 
+ */
 
 public class QueenBee extends Bee {
     

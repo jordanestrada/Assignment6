@@ -1,8 +1,5 @@
 package Builder;
 /*
-File: 
-Author:   
-Date: 
 
 Description:
 Concrete bee hive builder class assembling a finished product.

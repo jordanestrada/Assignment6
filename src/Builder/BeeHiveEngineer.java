@@ -1,11 +1,9 @@
 package Builder;
 /*
-File: 
-Author:   
-Date: 
-
+ 
 Description:
 Creates a bee hive using the methods specified by BeeHiveBuilder
+
 */
 
 

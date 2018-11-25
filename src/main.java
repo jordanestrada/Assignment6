@@ -6,6 +6,11 @@ import Builder.BeeHiveEngineer;
 import Factory.Bee;
 import Factory.BeeFactory;
 import Singleton.Apiary;
+import decorator.BeeInterface;
+import decorator.BlankBee;
+import decorator.Speed;
+import decorator.Strength;
+import decorator.Warrior;
 
 
 public class main {
@@ -29,13 +34,12 @@ public class main {
         
         /////////////// BUILDER DEMONSTRATION ///////////////
         
-        
+        //make a BeeHiveBuilder object that will build our bee hive
         BeeHiveBuilder testBeeHive = new BeeHiveBuilder();
         
+        //engineer creates our bee hive based on fields set by BeeHiveBuilder
         BeeHiveEngineer beeHiveEngineer = new BeeHiveEngineer(testBeeHive);
-        
         beeHiveEngineer.makeBeeHive();
-        
         BeeHive firstBeeHive = beeHiveEngineer.getBeeHive();
         
         System.out.println("");
@@ -75,6 +79,21 @@ public class main {
                 System.out.println("Invalid entry");
             }
         } 
+
+        
+        /////////////// DECORATOR DEMONSTRATION ///////////////
+        
+        //bee object is created, and attributes are added to the blank object with our
+        //various decorator constructors
+        System.out.println("");
+        BeeInterface theBee = new Strength(new Speed(new Warrior(new BlankBee())));
+        System.out.println("Bee Type: " + theBee.getBeeType());
+        System.out.println("Bee Strength: " + theBee.getBeeStrength());
+        System.out.println("Bee Speed: " + theBee.getBeeSpeed());
+        
+        
+        
+        
         
     }
 
