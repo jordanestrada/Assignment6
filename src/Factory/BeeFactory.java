@@ -6,7 +6,6 @@ public class BeeFactory {
         
         Bee newBee = null;
         
-        
         if(newBeeType.equals("WORKER") || newBeeType.equals("worker") ||newBeeType.equals("Worker")) {
             
             return new WorkerBee();

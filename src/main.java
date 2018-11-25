@@ -55,6 +55,7 @@ public class main {
         BeeFactory beeFactory = new BeeFactory();
         Bee newBee = null;
         
+        
         //while & catch try block used to ensure valid entry
         while(again) {
             try {
@@ -68,6 +69,7 @@ public class main {
                 newBee = beeFactory.makeBee(typeOfBee);
                 newBee.beeDisplay();
                 again = false;
+                
             }
             catch(NullPointerException ex) {
                 System.out.println("Invalid entry");
