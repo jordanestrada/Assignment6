@@ -55,6 +55,9 @@ public class main {
         
         String typeOfBee = input.nextLine();
         
+        newBee = beeFactory.makeBee(typeOfBee);
+        
+        newBee.beeDisplay();
         
         
         

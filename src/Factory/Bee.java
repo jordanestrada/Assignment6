@@ -20,7 +20,12 @@ public abstract class Bee {
         this.skills = newSkills;
     }
     
-    
+    public void beeDisplay() {
+        
+        System.out.println("--------------- LETS GET READY TO BUMBLE ---------------");
+        System.out.println("This is a " + getType());
+        System.out.println("This bee " + getSkills());
+    }
     
     
 
