@@ -4,7 +4,7 @@ public class QueenBee extends Bee {
     
     public QueenBee() {
         setType("Queen Bee");
-        setSkills("Rules the hive & can declare war.");
+        setSkills("rules the hive & can declare war.");
         
     }
 
