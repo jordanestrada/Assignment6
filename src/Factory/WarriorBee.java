@@ -5,7 +5,7 @@ public class WarriorBee extends Bee {
     public WarriorBee() {
         
         setType("Warrior Bee");
-        setSkills("Can kill other bees.");
+        setSkills("can kill other bees.");
         
     }
 

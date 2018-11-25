@@ -38,29 +38,43 @@ public class main {
         
         BeeHive firstBeeHive = beeHiveEngineer.getBeeHive();
         
+        System.out.println("");
         System.out.println("Bee type: " + firstBeeHive.getBeeType());
         System.out.println("This hive is a " + firstBeeHive.getHiveSize() + " sized hive." );
         System.out.println("This hive has " + firstBeeHive.getNumRooms() + " rooms." );
         System.out.println("This hive has " + firstBeeHive.getRestingRooms() );
         System.out.println("This hive has " + firstBeeHive.getSpawnRooms() );
-        
+        System.out.println("");
         
         /////////////// FACTORY DEMONSTRATION ///////////////
         
-        BeeFactory beeFactory = new BeeFactory();
+        boolean again = true;
+        String typeOfBee = null;
         
+        //our initial bee factory is created
+        BeeFactory beeFactory = new BeeFactory();
         Bee newBee = null;
         
-        System.out.println("What type of bee would you like to create?");
         
-        String typeOfBee = input.nextLine();
-        
-        
-        
-        
-        
-        
-        
+        //while & catch try block used to ensure valid entry
+        while(again) {
+            try {
+                
+                //user is prompted to select the type of bee our bee factory will create
+                System.out.println("What type of bee would you like to create?");
+                System.out.println("enter: WARRIOR, QUEEN, or WORKER");
+                typeOfBee = input.nextLine();
+                
+                //bee factory creates a bee based on user selection and displays bee info
+                newBee = beeFactory.makeBee(typeOfBee);
+                newBee.beeDisplay();
+                again = false;
+                
+            }
+            catch(NullPointerException ex) {
+                System.out.println("Invalid entry");
+            }
+        } 
         
     }
 

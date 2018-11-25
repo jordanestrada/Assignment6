@@ -6,19 +6,19 @@ public class BeeFactory {
         
         Bee newBee = null;
         
-        if(newBee.equals("WORKER") || newBee.equals("worker") ||newBee.equals("Worker")) {
+        if(newBeeType.equals("WORKER") || newBeeType.equals("worker") ||newBeeType.equals("Worker")) {
             
             return new WorkerBee();
             
         } else
             
-        if(newBee.equals("WARRIOR") || newBee.equals("warrior") ||newBee.equals("Warrior")) {
+        if(newBeeType.equals("WARRIOR") || newBeeType.equals("warrior") ||newBeeType.equals("Warrior")) {
             
             return new WarriorBee();
             
         } else
             
-        if(newBee.equals("QUEEN") || newBee.equals("queen") ||newBee.equals("Queen")) {
+        if(newBeeType.equals("QUEEN") || newBeeType.equals("queen") ||newBeeType.equals("Queen")) {
             
             return new QueenBee();
             
