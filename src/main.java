@@ -1,11 +1,18 @@
+import java.util.Scanner;
+
 import Builder.BeeHive;
 import Builder.BeeHiveBuilder;
 import Builder.BeeHiveEngineer;
+import Factory.Bee;
+import Factory.BeeFactory;
 import Singleton.Apiary;
+
 
 public class main {
 
     public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
         
         
         /////////////// SINGLETON DEMONSTRATION ///////////////
@@ -36,6 +43,22 @@ public class main {
         System.out.println("This hive has " + firstBeeHive.getNumRooms() + " rooms." );
         System.out.println("This hive has " + firstBeeHive.getRestingRooms() );
         System.out.println("This hive has " + firstBeeHive.getSpawnRooms() );
+        
+        
+        /////////////// FACTORY DEMONSTRATION ///////////////
+        
+        BeeFactory beeFactory = new BeeFactory();
+        
+        Bee newBee = null;
+        
+        System.out.println("What type of bee would you like to create?");
+        
+        String typeOfBee = input.nextLine();
+        
+        
+        
+        
+        
         
         
         

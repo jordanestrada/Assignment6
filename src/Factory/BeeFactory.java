@@ -11,16 +11,18 @@ public class BeeFactory {
             return new WorkerBee();
             
         } else
+            
         if(newBee.equals("WARRIOR") || newBee.equals("warrior") ||newBee.equals("Warrior")) {
             
             return new WarriorBee();
             
         } else
+            
         if(newBee.equals("QUEEN") || newBee.equals("queen") ||newBee.equals("Queen")) {
             
             return new QueenBee();
             
-        }
+        } else return null;
         
         
     }
