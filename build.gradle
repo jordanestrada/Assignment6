@@ -54,7 +54,7 @@ checkstyle {
    toolVersion = '3.1.1'
    ignoreFailures = true
  }
- 
+  
 // // To generate an HTML report instead of XML
  tasks.withType(com.github.spotbugs.SpotBugsTask) {
    reports {
