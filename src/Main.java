@@ -17,7 +17,7 @@ public class Main {
         
         Scanner input = new Scanner(System.in, "UTF-8");
         
-        
+         
         /////////////// SINGLETON DEMONSTRATION ///////////////
         
         //attempts to create two apiaries
