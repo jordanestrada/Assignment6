@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 /*
 
 Description:
@@ -17,11 +17,11 @@ public class BeeHive implements BeeHiveBlueprint {
     
     public void setBeeType(String type) {
         
-       beeType = type;
+        beeType = type;
         
     }
     
-    public String getBeeType(){
+    public String getBeeType() {
         
         return beeType;
         
@@ -34,7 +34,7 @@ public class BeeHive implements BeeHiveBlueprint {
         
     }
     
-    public String getHiveSize(){
+    public String getHiveSize() {
         
         return hiveSize;
         
@@ -47,33 +47,33 @@ public class BeeHive implements BeeHiveBlueprint {
         
     }
     
-    public int getNumRooms(){
+    public int getNumRooms() {
         
         return numRooms;
         
     }
 
 
-    public void setSpawningRooms(String sRooms) {
+    public void setSpawningRooms(String spawn) {
         
-        spawnRooms = sRooms;
+        spawnRooms = spawn;
         
     }
     
-    public String getSpawnRooms(){
+    public String getSpawnRooms() {
         
         return spawnRooms;
         
     }
 
 
-    public void setRestingRooms(String rRooms) {
+    public void setRestingRooms(String rest) {
         
-        restingRooms = rRooms;
+        restingRooms = rest;
         
     }
     
-    public String getRestingRooms(){
+    public String getRestingRooms() {
         
         return restingRooms;
         

@@ -1,4 +1,4 @@
-package Singleton;
+package singleton;
 
 public class Apiary {
     
@@ -10,7 +10,7 @@ public class Apiary {
     
     public static Apiary getInstance() {
         
-        if(apiary == null) {
+        if (apiary == null) {
             apiary = new Apiary();
         }
         
