@@ -1,4 +1,4 @@
-package Factory;
+package factory;
 /*
 
 QueenBee will implement our abstract Bee class with the 

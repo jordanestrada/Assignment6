@@ -1,4 +1,4 @@
-package Factory;
+package factory;
 /*
 
 WorkerBee will implement our abstract Bee class with the 

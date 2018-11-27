@@ -1,4 +1,4 @@
-package Factory;
+package factory;
 /*
 
 This is our abstract class the factory will be populating based 
@@ -16,12 +16,15 @@ public abstract class Bee {
     public String getType() {
         return type;
     }
+    
     public void setType(String newType) {
         this.type = newType;
     }
+    
     public String getSkills() {
         return skills;
     }
+    
     public void setSkills(String newSkills) {
         this.skills = newSkills;
     }

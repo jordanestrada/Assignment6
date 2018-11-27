@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 /*
 
 Description:
@@ -12,6 +12,7 @@ public class BeeHiveBuilder implements BeeHiveBuilderInterface {
     
     // beeHive object created whenever BeeHiveBuilder(); is called
     private BeeHive beeHive;
+    
     public BeeHiveBuilder() {
         this.beeHive = new BeeHive();
         
