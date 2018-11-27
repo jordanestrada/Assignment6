@@ -5,7 +5,7 @@ package builder;
 Description:
 BeeHiveBlueprint sets up interface for setting values for all beehives.
 Defines methods that will be set up.
-Will be implemented by Beehive.Java
+Will be implemented by BeeHive.java
 
 */
 
